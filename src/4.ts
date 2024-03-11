@@ -62,7 +62,7 @@ const person = new Person(key);
 const house = new MyHouse(key);
 //людина захоче увійти, але двері закриті
 house.comeIn(person);
-//пробуємо відкрити з неправильним ключем(не відкриються)
+//як приклад пробуємо відкрити з неправильним ключем(не відкриються)
 house.openDoor(new Key());
 //відкриваємо з правильним ключем //// house.openDoor(person.getKey());
 house.openDoor(key);
